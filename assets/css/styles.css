@@ -11,6 +11,12 @@
     color: #333;
 }
 
+#logo {
+    width: 30rem;
+    height: auto;
+    padding-bottom: 1.8rem;
+}
+
 h1, h2, h3, h4 {
     margin-bottom: 1rem;
 }
