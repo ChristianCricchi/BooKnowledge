@@ -34,6 +34,10 @@ choice.text{
     background-color: #dc3545;
 }
 
+.hide {
+    display: none;
+}
+
 /* Hud */
 
 #hud {
