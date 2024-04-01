@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun, family friendly quiz game!">
     <title>Congratulations!</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" type="image/x-icon" href="assets/img/BK.ico">
-</head>
-<body>
-
+  </head>
+  <body>
+    <!-- Final score area -->
     <div class="container">
-    <div id="end" class="flex-center flex-column">    
-        <h1>Your final score</h1>
-        <h2 id="finaleScore">0</h2>
+      <div id="end" class="flex-center flex-column">
+        <h1 class="text-center">Your final score:</h1>
+        <p id="finalScore">0</p>
         <form>
-            <input type="text" name="username" id="username" placeholder="Enter name"/>
-            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled> Save Score</button>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            maxlength="17"
+            placeholder="Enter name"
+            aria-label="Name"
+            >
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save Score
+          </button>
         </form>
-        <a href="/game.html" class="btn">Play Again</a>
-        <a href="/" class="btn">Go Home</a>
-    </div>
+        <a href="game.html" class="btn">Play Again</a>
+        <a href="index.html" class="btn">Go Home</a>
+      </div>
     </div>
     <script src="assets/scripts/end.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="sweetalert2.all.min.js"></script>
 
-</body>
+    
+  </body>
+
 </html>

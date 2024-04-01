@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Play Exquizite</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/game.css" />
-    <link rel="icon" type="image/x-icon" href="assets/img/exquiziteicon.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play BookKnowledge</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/BK.ico">
   </head>
 
   <body>
-    <div class="container" id="categorySelect">
+    <!-- Category and difficult select section -->
+    <div class="container hide" id="categorySelect">
       <form id="categoryForm">
-        <h1>Choose a topic</h1>
+        <h1 class="text-center">Choose a topic & difficulty</h1>
         <select id="category"></select>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
         <button class="btn" type="submit">Submit</button>
       </form>
     </div>
+    <!-- Game / question area -->
     <div class="container hide" id="gameArea">
       <div id="game" class="justify-center flex-column">
         <div id="hud">
-          <div id="hud-item">
+          <div>
             <p id="progressText" class="hud-prefix">Question</p>
             <div id="progressBar">
               <div id="progressBarFull"></div>
             </div>
           </div>
-          <div id="hud-item">
+          <div>
             <p class="hud-prefix">Score</p>
             <h1 class="hud-main-text" id="score">0</h1>
           </div>
@@ -50,7 +57,14 @@
           <p class="choice-text" data-number="4">Choice 4</p>
         </div>
       </div>
-
+    </div>
+    <!-- Loading spinner -->
+    <div class="container">
+      <div class="loader" id="loader"></div>
+    </div>
+    <!-- Error message if API fails to load -->
+    <div id="error" class="container hide text-center">
+      <p>Sorry! We were unable to load the quiz. Please try again later.</p>
     </div>
     <script src="assets/scripts/game.js"></script>
   </body>
