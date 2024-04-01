@@ -5,11 +5,13 @@ const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const categorySelect = document.getElementById('category');
 const categoryContainer = document.getElementById('categorySelect');
+const categoryForm = document.getElementById('categoryForm')
+const difficultySelect = document.getElementById('difficulty');
 const loader = document.getElementById('loader');
 const gameArea = document.getElementById('gameArea');
 const errorMessage = document.getElementById('error');
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 6;
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -47,7 +49,7 @@ getCategories();
 
 function getQuestions(category) {
     fetch(
-        `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`
+        `https://opentdb.com/api.php?amount=6&category=${category}&difficulty=${difficulty}&type=multiple`
     )
         .then((res) => {
             return res.json();
@@ -62,18 +64,17 @@ function getQuestions(category) {
         })
         .finally(() => {
             gameArea.classList.remove('hide');
-            document.getElementById('categorySelect').classList.add('hide');
+            categoryContainer.classList.add('hide');
         });
 }
 
-document
-    .getElementById('categoryForm')
-    .addEventListener('submit', function (event) {
+    categoryForm.addEventListener('submit', function (event) {
         event.preventDefault();
+     
 
-        const selectedCategoryId = document.getElementById('category').value;
+        const selectedCategoryId = categorySelect.value;});
         getQuestions(selectedCategoryId);
-    });
+       
 
 function startGame() {
     questionCounter = 0;
