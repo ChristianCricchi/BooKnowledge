@@ -4,6 +4,10 @@ const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const categorySelect = document.getElementById('category');
+const categoryContainer = document.getElementById('categorySelect');
+const loader = document.getElementById('loader');
+const gameArea = document.getElementById('gameArea');
+const errorMessage = document.getElementById('error');
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 10;
 let currentQuestion = {};
@@ -11,7 +15,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
+let difficulty;
 let questions = [];
 
 function getCategories() {
@@ -19,14 +23,23 @@ function getCategories() {
         .then((res) => res.json())
         .then((data) => data.trivia_categories)
         .then((categories) => {
-            console.log(categories);
-
-            categories.forEach((category) => {
+        
+            categories.forEach((category, index) => {
                 const option = document.createElement('option');
                 option.value = category.id;
                 option.innerText = category.name;
+                if (index === 0) {
+                    option.select = true;
+                }
                 categorySelect.appendChild(option);
             });
+            loader.classList.add('hide');
+            gameArea.classList.remove('hide');
+            categoryContainer.classList.remove('hide');
+        })
+        .catch(() =>{
+            loader.classList.add('hide');
+            errorMessage.classList.remove('hide');
         });
 }
 
@@ -34,7 +47,7 @@ getCategories();
 
 function getQuestions(category) {
     fetch(
-        `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=medium&type=multiple`
+        `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`
     )
         .then((res) => {
             return res.json();
@@ -42,14 +55,13 @@ function getQuestions(category) {
         .then((resp) => resp.results)
         .then((loadedQuestions) => {
             questions = loadedQuestions;
-            console.log(loadedQuestions);
             startGame();
         })
         .catch((err) => {
             console.error(err);
         })
         .finally(() => {
-            document.getElementById('gameArea').classList.remove('hide');
+            gameArea.classList.remove('hide');
             document.getElementById('categorySelect').classList.add('hide');
         });
 }
