@@ -10,8 +10,8 @@ const difficultySelect = document.getElementById('difficulty');
 const loader = document.getElementById('loader');
 const gameArea = document.getElementById('gameArea');
 const errorMessage = document.getElementById('error');
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 6;
+const CORRECT_BONUS = 5;
+const MAX_QUESTIONS = 10;
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -27,6 +27,7 @@ let questions = [];
 */
 
 function getCategories() {
+    /*fetch('https://opentdb.com/api.php?amount=50')*/
     fetch('https://opentdb.com/api_category.php')
         .then((res) => res.json())
         .then((data) => data.trivia_categories)
@@ -58,7 +59,7 @@ getCategories();
 
 function getQuestions(category) {
     fetch(
-        `https://opentdb.com/api.php?amount=6&category=${category}&difficulty=${difficulty}&type=multiple`
+        `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`
     )
         .then((res) => {
             return res.json();

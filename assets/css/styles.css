@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(39, 52, 81);
+    background-color: lightseagreen;
     font-size: 62.5%;
 }
 
@@ -8,11 +8,11 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: rgb(226, 226, 226);
+    color: navy;
 }
 
 #logo {
-    width: 30rem;
+    width: 55rem;
     height: auto;
     padding-bottom: 1.8rem;
 }
@@ -28,7 +28,7 @@ h4 {
 
 h1 {
     font-size: 3.5rem;
-    color: rgb(226, 226, 226);
+    color: navy;
     margin-bottom: 3rem;
 }
 
@@ -102,13 +102,13 @@ p {
     text-align: center;
     margin-bottom: 2rem;
     text-decoration: none;
-    color: #8f644a;
-    background-color: white;
+    color: navy;
+    background-color: lightslategray;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 black;
+    box-shadow: 0 0.4rem 1.4rem 0 navy;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -138,13 +138,13 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.1rem 1.4rem 0 navy;
     color: black;
     text-align: center;
 }
 
 input::placeholder {
-    color: #aaa;
+    color: navy;
 }
 
 select {
@@ -153,8 +153,8 @@ select {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-    color: black;
+    box-shadow: 0 0.1rem 1.4rem 0 navy;
+    color: navy;
     text-align: center;
 }
 
