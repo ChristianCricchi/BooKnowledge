@@ -6,6 +6,8 @@
 
 ## **Website Summary**
 
+ChecKnowledge is an online game that allows users to test their knowledge by answering multiple-choice questions on different topics and differnt difficulty levels. The target audience that the game want to reach is people who like quiz, teams preparing for specific events, and anyone seeking entertaining way to pass thr time. 
+
 ## **Tables of contents**
   - [**BooKnowledge**](#Book=Knowledge)
   - [**Site Overview**](#site-overview)
