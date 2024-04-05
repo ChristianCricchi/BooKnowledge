@@ -1,4 +1,4 @@
-# **BooKnowledge**
+# **CheckKnowledge**
 
 [Live project](https://christiancricchi.github.io/ChecKnowledge/)
 
@@ -15,7 +15,7 @@ ChecKnowledge is an online game that allows users to test their knowledge by ans
   - [**Planning stage**](#planning-stage)
   - [**Target Audiences**](#target-audiences)
   - [**User Stories**](#user-stories)
-  - [**Site Aims**](#site-aims)
+  - [**Site Aims**](#site-aims)ce
   - [**Wireframes**](#wireframes)
   - [**Color Scheme**](#color-scheme)
   - [**Typography**](#typography)
