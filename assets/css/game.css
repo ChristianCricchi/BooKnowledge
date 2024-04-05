@@ -18,8 +18,8 @@
 
 .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: #8f644a;
-    color: white;
+    background-color: navy;
+    color: lightseagreen;
 }
 
 .choice-text {
@@ -59,12 +59,12 @@
 #progressBar {
     width: 20rem;
     height: 4rem;
-    border: 0.3rem solid #8f644a;
+    border: 0.3rem solid navy;
     margin-top: 1.5rem;
 }
 
 #progressBarFull {
     height: 3.4rem;
-    background-color: #8f644a;
+    background-color: lightslategrey;
     width: 0%;
 }
