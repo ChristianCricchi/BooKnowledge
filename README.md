@@ -1,6 +1,6 @@
 # **BooKnowledge**
 
-[Live project](https://christiancricchi.github.io/BooKnowledge/)
+[Live project](https://christiancricchi.github.io/ChecKnowledge/)
 
 ![Is responsive](###)
 
