@@ -5,13 +5,13 @@ const mostRecentScore = localStorage.getItem("mostRecentScore");
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 /**
- * Update text content of finalScore to the value stored in mostRecentScore
+ * Update text content of finalScore to the value stored in mostRecentScore.
 */
 
 finalScore.innerText = mostRecentScore;
 
 /**
- * Disables the save score button until a name is entered
+ * Disables the save score button until a name is entered.
 */
 
 username.addEventListener("keyup", () => {
@@ -19,7 +19,7 @@ username.addEventListener("keyup", () => {
 });
 
 /**
- * Get the username and score, then update the high scores list
+ * Get the username and score, then update the high scores list.
 */
 
 const saveHighScore = (e) => {
