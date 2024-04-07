@@ -1,8 +1,8 @@
 const highScoresList = document.getElementById("highScoresList");
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-/**
- * Creates the highscores list, or shows No High Scores if none can be found
+/*
+ * Generates the high scores list on the page, or displays a message  if no high scores are available.
 */
 
 if (highScores.length === 0) {
