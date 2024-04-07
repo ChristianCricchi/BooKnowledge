@@ -21,10 +21,12 @@ let difficulty;
 let questions = [];
 
 /**
- * Fetches categories from API while loading spinner shows.
- * Once categories are fetched successfully, loading spinner is removed.
- * Categories and difficulty select options then appear.
-*/
+ * Retrieves the available categoriesfrom an API, displaying a loading 
+ * spinner while the data is being fetched.
+ * Once the categories have been successfully retrieved, the loading spinner
+ * is hidden, and the category and difficulty selection options are presented
+ * to the user.
+ */
 
 function getCategories() {
     /*fetch('https://opentdb.com/api.php?amount=50')*/
@@ -54,8 +56,9 @@ function getCategories() {
 getCategories();
 
 /**
- * Gets the questions based on the category and difficulty chosen, then starts the game.
-*/
+ * Retrieves the quiz questions based on the user's selected category and 
+ * difficulty, and initiates the game session.
+ */
 
 function getQuestions(category) {
     fetch(
@@ -79,8 +82,9 @@ function getQuestions(category) {
 }
 
 /**
- * Once categoryForm is submitted, get the category ID and pass it to the getQuestions function
-*/
+ * When the category selection form is submitted, the code extracts the chosen cattegory ID
+ * and passes it to the function responsible for fetching the corresponding quiz questions.
+ */
 
 categoryForm.addEventListener('submit', function (event) {
         event.preventDefault();
@@ -103,10 +107,12 @@ function startGame() {
 }
 
 /**
- * If there are no more questions or max questions is reached, the quiz is over and score is set.
- * Otherwise, move to the next question and update the progressBar.
- * Answers are populated in a random order, so they are not always in the same box when question is repeated.
-*/
+ * If there are no more questions remaining or the maximum number of questions has been
+ * reached, the quiz is concluded, and the user's final score is set.
+ * Otherwise, the code advances to the next question and updates the progress bar accordingly.
+ * The answer choices are presented in a randomised order, ensuring they are not always
+ * displayed in the same fixed positions when a question is repeated.
+ */
 
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
@@ -134,9 +140,11 @@ function getNewQuestion() {
 }
 
 /**
- * Informs the user which question they are on.
- * Also fills the progressBar as the user progresses through the quiz.
-*/
+ * Displays the current question number to the user, providing them with a sense of their
+ * progress through the quiz.
+ * Additionally, the code updates the progress bar to visually represent the user's
+ * advancement through the quiz.
+ */
 
 function setProgressBar() {
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -144,10 +152,11 @@ function setProgressBar() {
 }
 
 /**
- * Handles answer choices, informs user if the choice is correct or incorrect
- * Score is incremented when answer is correct
- * Moves to next question
-*/
+ * Present the user with the current question number, allowing them to gauge their progression
+ * through the quiz.
+ * Furthermore, the code updates the progress bar to visually convey the user's advancement
+ * within the quiz.
+ */
 
 choices.forEach((choice) => {
     choice.addEventListener('click', (event) => {
@@ -175,7 +184,7 @@ choices.forEach((choice) => {
 });
 
 /**
- * Increments the users score 
+ * Increases the user's score.
 */
 
 function incrementScore(num) {
@@ -184,8 +193,8 @@ function incrementScore(num) {
 }
 
 /**
- * Allows answers to be randomised each time a question appears
-*/
+ * Presents the answers options in a randomised.
+ */
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i >= 0; i--) {
