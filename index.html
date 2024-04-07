@@ -1,21 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
+  <!-- Head section contains metadatas and other information about the web page. -->
   <head>
+    <!-- Sets the character encoding for the web page. -->
     <meta charset="UTF-8">
+    <!-- This sets the internet Explorer compatibility mode to the last version available. -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- This sets the area of the web page that is visible to the user, to be the same as the device's screen width and have an initial sclale of 1.0. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Provide a brief description of the web page. -->
     <meta name="description" content="A nice way to check your knowledge!">
+    <!-- This is the title of the web page. -->
     <title>ChecKnowledge</title>
+    <!-- This link the web page to an external css file located at assets/css/styles.css, which contains the styles for the page. -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- This set the favicon, the small icon that appears in the browser's tab. -->
     <link rel="icon" type="image/x-icon" href="assets/img/CK.ico">
   </head>
+  <!-- This is the main content area of the web page, where the visible elements are displayed. -->
   <body>
     <!-- Home Section -->
+    <!-- This is a container div that holds the main content of the page. -->
     <div class="container">
+      <!-- This is a container div that uses the classes "flex-center and "Flex-column to center the content vertically and horizontally" -->
       <div id="home" class="flex-center flex-column">
-        <a href="index.html"
-          ><img src="assets/img/checknowledge-logo.png" id="logo" alt="ChecKnowledge logo"></a>
+        <!-- This is a link to the index.html page that displays the logo of the page. -->
+        <a href="index.html">         
+        </a><img src="assets/img/checknowledge-logo.png" id="logo" alt="ChecKnowledge logo"></a>
+        <!-- This is  a link to the game.html that allows the user to start a new quiz. -->
         <a class="btn" href="game.html">Start New Quiz</a>
+        <!-- This is a link to highScores.html page that display the high score of the game. -->
         <a class="btn" href="highscores.html">High Scores</a>
       </div>
     </div>
