@@ -13,33 +13,44 @@
 
   <body>
     <!-- Category and difficult select section -->
+    <!-- This is a container div that holds the category and difficulty section form. -->
     <div class="container hide" id="categorySelect">
+      <!-- This is a form that allows the user to select a category and difficulty. -->
       <form id="categoryForm">
+        <!-- This is a heading that prompts the user to choose a topic and difficulty. -->
         <h1 class="text-center">Choose a topic & difficulty</h1>
+        <!-- This is a dropdown select element where the user can choose a category. -->
         <select id="category"></select>
-        <select id="difficulty">
+        <!-- This is a dropdown select element where the user can choose the difficulty level. -->
           <option value="easy">Easy</option>
           <option value="medium">Medium</option>
           <option value="hard">Hard</option>
         </select>
+        <!-- This is a submit button that the user can click to submit their category and difficult selections. -->
         <button class="btn" type="submit">Submit</button>
       </form>
     </div>
     <!-- Game / question area -->
+    <!-- This is a container div that holds the game and question area.-->
     <div class="container hide" id="gameArea">
+      <!-- This is the main game area, which is centered and laid out vertically.-->
       <div id="game" class="justify-center flex-column">
+        <!-- This is a "heads-up display that shows the user's progress and score." -->
         <div id="hud">
           <div>
+            <!-- Questions-->
             <p id="progressText" class="hud-prefix">Question</p>
             <div id="progressBar">
               <div id="progressBarFull"></div>
             </div>
           </div>
           <div>
+            <!-- Score-->
             <p class="hud-prefix">Score</p>
             <h1 class="hud-main-text" id="score">0</h1>
           </div>
         </div>
+        <!-- Answers choice -->
         <h2 id="question">What is the answer to this question</h2>
         <div class="choice-container">
           <p class="choice-prefix">A</p>
@@ -67,6 +78,7 @@
     <div id="error" class="container hide text-center">
       <p>Sorry! We were unable to load the quiz. Please try again later.</p>
     </div>
+    <!-- This javascript include an external file located in "assets/js/game.js" which contains the code to handle the game logic and game functionality. -->
     <script src="assets/js/game.js"></script>
   </body>
 </html>
