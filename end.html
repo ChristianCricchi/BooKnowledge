@@ -11,11 +11,16 @@
   </head>
   <body>
     <!-- Final score area -->
+    <!-- This container holds the specific content for the final score area. -->
     <div class="container">
       <div id="end" class="flex-center flex-column">
+        <!-- This is a headings that displays the text "Your final score". -->
         <h1 class="text-center">Your final score:</h1>
+        <!-- This is a paragraph element that will display the user's final score. -->
         <p id="finalScore">0</p>
+        <!-- This is a form that allows the user to enter their name to save their high score. -->
         <form>
+          <!-- This is an input field where the user can enter their name. -->
           <input
             type="text"
             name="username"
@@ -24,6 +29,7 @@
             placeholder="Enter name"
             aria-label="Name"
             >
+          <!-- This is a button that the user can click to save their high score. The onclick saveHighScore(event) attribute call a JavaScript function to save the score, and the disable attribute initially disables the button. -->
           <button
             type="submit"
             class="btn"
@@ -34,10 +40,13 @@
             Save Score
           </button>
         </form>
+        <!-- This is a link that allows the user to play the game again. -->
         <a href="game.html" class="btn">Play Again</a>
+        <!-- This is a link that allows the user t go back to the home page. -->
         <a href="index.html" class="btn">Go Home</a>
       </div>
     </div>
+    <!-- This javascript include an external file located in "assets/js/end.js" which contains the code to handle the final score functionality, as saving the high score and updating the display. -->
     <script src="assets/js/end.js"></script>
   </body>
 </html>
