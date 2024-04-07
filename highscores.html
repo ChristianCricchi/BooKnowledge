@@ -12,13 +12,19 @@
   </head>
   <body>
     <!-- High Scores Section -->
+    <!-- This is a container div that holds the main content of the page. -->
     <div class="container">
+      <!-- This is another container div that holds the high score section of the page, and use the classes "flex-center" "flex-column" to center the content verticlly and horizontally -->
       <div id="highScores" class="flex-center flex-column">
+        <!-- This is a headings that displays the title "Best Players" -->
         <h1 id="finalScore">Best Players</h1>
+        <!-- This is an unordered list that will display the high score. The "text-center" class center the text whitin the list -->
         <ul id="highScoresList" class="text-center"></ul>
+        <!-- This is a link to  the page "index.html" that allows the user to go back to the home page. -->
         <a href="index.html" class="btn">Go Home</a>
       </div>
     </div>
+    <!-- This script tag fincludes an external JavaScript file located at "assets/js/highscores.js", which contains the code to display the high scores on the page. -->
     <script src="assets/js/highscores.js"></script>
   </body>
 </html>
