@@ -36,6 +36,22 @@ lightseagreen background, with the grey background of the buttons and the white 
 
 The Arial font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I am using Sans Serif as a backup font, in case for any reason the main font is not being imported into the site correctly.
 
+## Wireframes
+Wireframes were produced using Balsamiq. 
+
+<details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](docs/wireframes/Desktop.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/wireframes/Mobile.png)
+ </details>
+
 
 
 ![Is responsive](###)
