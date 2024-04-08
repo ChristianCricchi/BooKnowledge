@@ -43,13 +43,31 @@ Wireframes were produced using Balsamiq.
 
  <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](docs/wireframes/Desktop.png)
+![Desktop Wireframe](docs/wireframe/desktop/HomePage.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/GamePage.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/Questions&AnswerPage.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/FinalScore.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/BestPlayer.png)
  </details>
 
  <details>
     <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe](docs/wireframes/Mobile.png)
+![Mobile Wireframe](docs/wireframe/mobile/HomePageSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/GamePageSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/Questions&AnswerpageSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/FinalScoreSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/BestPlayerSmartphone.png)
+
+
  </details>
 
 
