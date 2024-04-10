@@ -43,15 +43,50 @@ Wireframes were produced using Balsamiq.
 
  <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](docs/wireframes/Desktop.png)
+![Desktop Wireframe](docs/wireframe/desktop/HomePage.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/GamePage.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/Questions&AnswerPage.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/FinalScore.png)
+
+![Desktop Wireframe](docs/wireframe/desktop/BestPlayer.png)
  </details>
 
  <details>
     <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe](docs/wireframes/Mobile.png)
+![Mobile Wireframe](docs/wireframe/mobile/HomePageSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/GamePageSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/Questions&AnswerpageSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/FinalScoreSmartphone.png)
+
+![Desktop Wireframe](docs/wireframe/mobile/BestPlayerSmartphone.png)
+
+
  </details>
 
+ ## Features
+- ### Home page
+  - This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz  and HIgh Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity.
+
+![Nav bar image]()
+
+- ### Start New Quiz
+  - When the user clicks the "Start New Game" they are presented with teo dropdown menus:
+    - Topic Selection
+      This dropdown allows the user to choose the topic for the game.
+    - Difficulty Selection
+      The user can select the desired difficulty level for the game from this dropdown.
+   Addictionaly, there is a:
+   - Submit Button
+     Once the user has made their selections from the two dropdowns menus and clicks the "Submit" button, the game will begin based on the choides made.
+
+![Nav bar image]()
 
 
 ![Is responsive](###)
