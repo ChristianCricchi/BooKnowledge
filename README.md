@@ -74,7 +74,7 @@ Wireframes were produced using Balsamiq.
 - ### Home page
   - This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz  and HIgh Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity.
 
-![Nav bar image]()
+    ![Nav bar image](docs/features/HomePage.png)
 
 - ### Start New Quiz
   - When the user clicks the "Start New Game" they are presented with teo dropdown menus:
@@ -87,6 +87,17 @@ Wireframes were produced using Balsamiq.
      Once the user has made their selections from the two dropdowns menus and clicks the "Submit" button, the game will begin based on the choides made.
 
 ![Nav bar image]()
+
+- ### Game Area
+  - The game area includes a progress bar that automatically fills up based on the current question number the user is on. This features keeps the user informed about their progress throughthe game, showing how far the user has gone and how much is left until the end.
+  - Alongside the progress bar, the game area features a score display that shows the user's current score. This score iscalculated based on the number of questions the user has answered correctly so far.
+  - The game does not simply repeat the same question over and over. Insted, the question content is dynamic, varying from one query to the next. This ensures that the user must actively engage with and respond to a diverse set of questions throughout the course of the game.
+  - The game area also presents the user with a set of multiple-choice answer, there are four possible answers from which the user can select the response. When the user chooses an answer, the system provides immediate feedback. If the selected answer is correct, the corresponding answer box is highlighted in green, conversely if the answer is incorrect, the box is highlighted in red. After this feedback, the game automatically advances to the next question.
+
+![Nav bar image]()
+
+- ### Game Area
+  
 
 
 ![Is responsive](###)
