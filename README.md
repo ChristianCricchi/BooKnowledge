@@ -78,26 +78,33 @@ Wireframes were produced using Balsamiq.
 
 - ### Start New Quiz
   - When the user clicks the "Start New Game" they are presented with teo dropdown menus:
-    - Topic Selection
+    - **Topic Selection**
       This dropdown allows the user to choose the topic for the game.
-    - Difficulty Selection
+    - **Difficulty Selection**
       The user can select the desired difficulty level for the game from this dropdown.
    Addictionaly, there is a:
-   - Submit Button
+   - **Submit Button**
      Once the user has made their selections from the two dropdowns menus and clicks the "Submit" button, the game will begin based on the choides made.
 
 ![Nav bar image]()
 
 - ### Game Area
-  - The game area includes a progress bar that automatically fills up based on the current question number the user is on. This features keeps the user informed about their progress throughthe game, showing how far the user has gone and how much is left until the end.
-  - Alongside the progress bar, the game area features a score display that shows the user's current score. This score iscalculated based on the number of questions the user has answered correctly so far.
+  - The game area includes a **progress bar** that automatically fills up based on the current question number the user is on. This features keeps the user informed about their progress throughthe game, showing how far the user has gone and how much is left until the end.
+  - Alongside the progress bar, the game area features a **score display** that shows the user's current score. This score is calculated based on the number of questions the user has answered correctly so far.
   - The game does not simply repeat the same question over and over. Insted, the question content is dynamic, varying from one query to the next. This ensures that the user must actively engage with and respond to a diverse set of questions throughout the course of the game.
-  - The game area also presents the user with a set of multiple-choice answer, there are four possible answers from which the user can select the response. When the user chooses an answer, the system provides immediate feedback. If the selected answer is correct, the corresponding answer box is highlighted in green, conversely if the answer is incorrect, the box is highlighted in red. After this feedback, the game automatically advances to the next question.
+  - The game area also presents the user with a set of **multiple-choice answer**, there are four possible answers from which the user can select the response. When the user chooses an answer, the system provides immediate feedback. If the selected answer is correct, the corresponding answer box is highlighted in green, conversely if the answer is incorrect, the box is highlighted in red. After this feedback, the game automatically advances to the next question.
 
 ![Nav bar image]()
 
-- ### Game Area
+- ### End Game Page
+  - The End page of the game has a few key features worrth highlighting:
+    - **Score Summary** displays the user's final score, this allows the user to quickly see how they performed overall on the quiz.
+    - **Save Name** in addictionto the final score display, the end page also allows users to save their result to a highscore leaderboard. To do this, the users are prompted to enter their name in a text field. Importantly, the **Save Score** button is disabled until the user has entered a name. This ensure that users cannot submit an empty name field.includes.
+    - A **Play Again** button that allows users to restart the entire quiz if they wish to try it once more.
+    - **Home** Users can quickly return to the home page by clicking the dedicated "Home" button.
   
+![Nav bar image]()
+
 
 
 ![Is responsive](###)
