@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const progressText = document.getElementById('progressText');
@@ -166,10 +167,8 @@ choices.forEach((choice) => {
         const selectedChoice = event.target;
 
         const classToApply =
-            currentQuestion.correct_answer === event.target.innerHTML
-                ? 'correct'
-                : 'incorrect';
-
+            currentQuestion.correct_answer === event.target.innerHTML  ? 'correct' : 'incorrect';
+           
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
         }
