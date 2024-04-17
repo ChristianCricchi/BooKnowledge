@@ -74,7 +74,7 @@ Wireframes were produced using Balsamiq.
 - ### Home page
   - This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz  and HIgh Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity.
 
-    ![Nav bar image](docs/features/HomePage.png)
+       ![Nav bar image](docs/features/homePage.PNG)
 
 - ### Start New Quiz
   - When the user clicks the "Start New Game" they are presented with teo dropdown menus:
@@ -86,7 +86,7 @@ Wireframes were produced using Balsamiq.
    - **Submit Button**
      Once the user has made their selections from the two dropdowns menus and clicks the "Submit" button, the game will begin based on the choides made.
 
-![Nav bar image]()
+        ![Nav bar image](docs/features/startPage.PNG)
 
 - ### Game Area
   - The game area includes a **progress bar** that automatically fills up based on the current question number the user is on. This features keeps the user informed about their progress throughthe game, showing how far the user has gone and how much is left until the end.
@@ -94,7 +94,7 @@ Wireframes were produced using Balsamiq.
   - The game does not simply repeat the same question over and over. Insted, the question content is dynamic, varying from one query to the next. This ensures that the user must actively engage with and respond to a diverse set of questions throughout the course of the game.
   - The game area also presents the user with a set of **multiple-choice answer**, there are four possible answers from which the user can select the response. When the user chooses an answer, the system provides immediate feedback. If the selected answer is correct, the corresponding answer box is highlighted in green, conversely if the answer is incorrect, the box is highlighted in red. After this feedback, the game automatically advances to the next question.
 
-![Nav bar image]()
+       ![Nav bar image](docs/features/gameArea.PNG)
 
 - ### End Game Page
   - The End page of the game has a few key features worrth highlighting:
@@ -103,7 +103,7 @@ Wireframes were produced using Balsamiq.
     - A **Play Again** button that allows users to restart the entire quiz if they wish to try it once more.
     - **Home** Users can quickly return to the home page by clicking the dedicated "Home" button.
   
-![Nav bar image]()
+         ![Nav bar image](docs/features/endGamePage.PNG)
 
 
 
