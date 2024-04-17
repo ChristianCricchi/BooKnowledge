@@ -137,3 +137,11 @@ Wireframes were produced using Balsamiq.
 | end.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/endJs.PNG)|
 | game.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/gameJs.PNG)|
 | score.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/scoreJs.PNG)|
+
+- #### Accessibility 
+    - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+
+| File | Test | Pass | Image |
+| :---: | :---: | :---: | :---: | 
+|  | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |[The live link can be found here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fchristiancricchi.github.io%2FChecKnowledge%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)|
+
