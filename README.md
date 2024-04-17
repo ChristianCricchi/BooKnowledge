@@ -105,12 +105,15 @@ Wireframes were produced using Balsamiq.
   
          ![Nav bar image](docs/features/endGamePage.PNG)
 
+## Testing
 
+### Validator Testing
+- #### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
 
-![Is responsive](###)
-
-## **Website Summary**
-
-
-
+| File | Test | Pass | Imaage |
+| :---: | :---: | :---: | :---: | 
+| index.html | Inside the validator | Yes |![Nav bar image](docs/features/endGamePage.PNG)|
+| Value 4 | Value 5 | Value 6 |
+| Value 7 | Value 8 | Value 9 | 
 
