@@ -111,9 +111,10 @@ Wireframes were produced using Balsamiq.
 - #### HTML
     - No errors were returned when passing through the official W3C Markup Validator
 
-| File | Test | Pass | Imaage |
+| File | Test | Pass | Image |
 | :---: | :---: | :---: | :---: | 
-| index.html | Inside the validator | Yes |![Nav bar image](docs/features/endGamePage.PNG)|
-| Value 4 | Value 5 | Value 6 |
-| Value 7 | Value 8 | Value 9 | 
-
+| index.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/indexHtml.PNG)|
+| game.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/gameHtml.PNG)|
+| highscores.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/highscoresHtml.PNG)|
+| end.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/endHtml.PNG)|
+| error.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/errorHtml.PNG)|
