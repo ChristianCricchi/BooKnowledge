@@ -108,6 +108,7 @@ Wireframes were produced using Balsamiq.
 ## Testing
 
 ### Validator Testing
+
 - #### HTML
     - No errors were returned when passing through the official W3C Markup Validator
 
@@ -118,3 +119,12 @@ Wireframes were produced using Balsamiq.
 | highscores.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/highscoresHtml.PNG)|
 | end.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/endHtml.PNG)|
 | error.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/errorHtml.PNG)|
+
+- #### CSS
+    - No errors were found when passing through the official W3C CSS Validator
+
+| File | Test | Pass | Image |
+| :---: | :---: | :---: | :---: | 
+| styles.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/stylesCss.PNG)|
+| game.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/gameCss.PNG)|
+| highscores.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/highscoresCss.PNG)|
