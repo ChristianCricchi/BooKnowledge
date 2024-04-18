@@ -30,7 +30,7 @@ The imagery used on the CheKnowledge site is very important to the overall exper
 
 ### Colours
 The colour scheme of the page is lightseagreen, a navy and green font is used which as a good contrast with the 
-lightseagreen background, with the grey background of the buttons and the white of the dropdown buttons. For the question bar was used a blue navy margin color and a light gray for the bar, this contrast make it easy to see.
+lightseagreen background, with the green background of the buttons and the white of the dropdown buttons. For the question bar was used a blue navy margin color and a light gray for the bar, this contrast make it easy to see.
 
 ### Fonts
 
