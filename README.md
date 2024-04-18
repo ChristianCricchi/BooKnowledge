@@ -114,7 +114,7 @@ Wireframes were produced using Balsamiq.
 
 | File | Test | Pass | Image |
 | :---: | :---: | :---: | :---: | 
-| index.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/indexHtml.PNG)|
+| index.html | The test consists of placing the file in the Light and verifying that there are no errors. | Yes |![Nav bar image](docs/html/indexHtml.PNG)|
 | game.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/gameHtml.PNG)|
 | highscores.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/highscoresHtml.PNG)|
 | end.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/endHtml.PNG)|
@@ -139,9 +139,37 @@ Wireframes were produced using Balsamiq.
 | score.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/scoreJs.PNG)|
 
 - #### Accessibility 
-    - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+  - The site achieved a Lighthouse accessibility median score of 96% which confirms that the colours and fonts chosen are easy to read and accessible.
+
+    - Desktop
 
 | File | Test | Pass | Image |
 | :---: | :---: | :---: | :---: | 
-|  | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |[The live link can be found here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fchristiancricchi.github.io%2FChecKnowledge%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)|
+| index.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/indexHtmlDes.png)
+| highscores.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/highscoresHtmlDes.png)
+| game.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/gameHtmlDes.png)
+| error.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/errorHtmlDes.png)
+| end.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/endHtmlDes.png)
 
+- #### Accessibility 
+  - The site achieved a Lighthouse accessibility median score of 96% which confirms that the colours and fonts chosen are easy to read and accessible.
+
+    - Mobile  
+
+| File | Test | Pass | Image |
+| :---: | :---: | :---: | :---: | 
+| index.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/indexHtmlMob.png)
+| highscores.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/highscoresHtmlMob.png)
+| game.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/gameHtmlMob.png)
+| error.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/errorHtmlMob.png)
+| end.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/endHtmlMod.png)
+
+  - The accessibility was also tested on wave.webaim.org.
+
+| File | Test | Pass | Image |
+| :---: | :---: | :---: | :---: | 
+| index.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/index.png)
+| highscores.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/highscores.png)
+| game.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/game.png)
+| error.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/error.png)
+| end.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/end.png)
