@@ -196,3 +196,44 @@ Wireframes were produced using Balsamiq.
 
 ### Friends and Family User Testing
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+## Bugs
+
+| Bug | Problem | Cause | Solution |
+| :---: | :---: | :---: | :---: | 
+| GitHub page | When the project was deployed in GitHub PAges and "Start Quiz" button was clicked, a 404 "Page NOt Found" error is displayed.| GitHub Pages does not handle absolute file paths well. When the application is deployed to GitHUb Pages, the absolute file paths used to send the user to the relevant page based on the button clicked action taken are no longer valid, leading to the 404 Error | To resolve the issue with the 404 "Page Not Found", the solution was to change all file paths in the project's documents from absolute to relative. |
+| Easy Difficulty Issue | When attempting to start he quiz without modifing the defaul dropdown options for topic difficulty, the quiz does not launch like expected, the application immediately jumps to the end page, bypassing the quiz functionality | The root cause of the problem was related to the difficulty selection dropdown. The application was unable to properly determine the actual value of the difficulty selection until the user physically selected an option from the dropdown menu. | To address the problem the "game.js" file was updated. The goal was to ensure that the application could properly recognise ad handle the default "easy" difficulty, even if it was not physically selected by the user. |
+
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS
+- JavaScript
+
+### Frameworks - Libraries - Programs Used
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+- [JavaScript Validation](https://JSHint.com) - Used to validate the JavaScript code.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [ChecKnowledge](https://christiancricchi.github.io/ChecKnowledge/)
+
+
