@@ -244,4 +244,26 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 
 The live link can be found here - [ChecKnowledge](https://christiancricchi.github.io/ChecKnowledge/)
 
+## Credits
+
+### Content
+All educational content was sourced from the below websites:
+- [Tutorial to create the game](https://www.youtube.com/watch?v=rFWbAj40JrQ)
+- [Loading Spinner](https://www.w3schools.com/howto/howto_css_loader.asp)
+
+### Media
+All images and videos were sourced from the below websites.
+- [Logo](https://logo.com/)
+- [Favicon](https://favicon.io/)
+
+## Acknowledgments
+
+My lovely wife Vivian for her support, advice and help in the crisis moments.
+
+My mentor Antonio for his support and advice.
+
+Amy for the interesting and useful information shared on oct-2023-pla weekly meeting
+
+The Code Institute slack community for their quick responses and very helpful feedback!  
+
 
