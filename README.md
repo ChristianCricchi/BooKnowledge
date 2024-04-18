@@ -173,3 +173,26 @@ Wireframes were produced using Balsamiq.
 | game.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/game.png)
 | error.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/error.png)
 | end.html  | The test consists of placing the file in the wave.webaim.org and verifying the accessibility of the site. | Yes |![Nav bar image](docs/wave/end.png)
+
+- ### Testing User Stories
+  I set some manual test to test the User Stories.
+
+| Name | Test | Result | Pass |
+| :---: | :---: | :---: | :---: | 
+| Test 1 | As a user, I want the site to be intuitive, so I can quickly find the functionality. | All acceptance for the intuitive quiz experience have been met, as verified through user testing. | Yes |
+| Test 2 | As a user, I want the site to be responsive. | All acceptance criteria for responsive quiz have been meet, as verified through comprehensive testing on a variety of devices and browsers | Yes |
+| Test 3 | As a user, I want to be able to choose the topic for the questions. | All acceptance criteria for the topic selection have been meet, as verified through user testing. | Yes |
+| Test 4 | As a user, I want that the quiz should have a large, diverse pool of questions for each available topic. | All acceptance criteria for dynamic have been meet, as verified through comprehensive user testing. | Yes |
+
+### Browser Testing
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+    
+### Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+- I also used the following websites to test responsiveness:
+    - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fchristiancricchi.github.io%2FChecKnowledge%2F)
+    - [Am I Responsive](https://ui.dev/amiresponsive?url=https://christiancricchi.github.io/ChecKnowledge/)
+
+
+### Friends and Family User Testing
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
