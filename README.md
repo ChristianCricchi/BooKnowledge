@@ -105,6 +105,14 @@ Wireframes were produced using Balsamiq.
   
          ![Nav bar image](docs/features/endGamePage.PNG)
 
+## Features left to Implement
+
+| Number | Feature |
+| :---: | :---: |
+| 1 | The High Score leaderbord could be improved to score scores on a server rather than a local storage. |
+| 2 | To further enhance the user experience and provide more flexibility , an addictional dropdown menu could be added to the game page. This would allow the user to choose the number of questions they want to answer, enabling them to customise the game. |
+| 3 |  By incorporating a progressive level system, the ChecKnowledge application could offer a more structured and challenging experience for users. As they progress through the levels, the difficulty of the questions and the overall game experience would gradually increase, providing a sense of progression and accomplishment. |
+
 ## Testing
 
 ### Validator Testing
