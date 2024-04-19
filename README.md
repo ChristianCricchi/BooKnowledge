@@ -2,7 +2,9 @@
 
 ChecKnowledge is an online game that allows users to test their knowledge by answering multiple-choice questions on different topics and differnt difficulty levels. The target audience that the game want to reach is people who like quiz, teams preparing for specific events, and anyone seeking entertaining way to pass their time. 
 
-[The live link can be found here](https://christiancricchi.github.io/ChecKnowledge/)
+The live link can br found here [ChecKnowledge](https://christiancricchi.github.io/ChecKnowledge/)
+
+![ChecKnowledge is responsive]()
 
 ## Site owner Goals
 - To provide answer about user that are looking for a quiz game, with particulary focus on general knowledge.
@@ -71,39 +73,33 @@ Wireframes were produced using Balsamiq.
  </details>
 
  ## Features
-- ### Home page
-  - This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz  and HIgh Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity.
 
-       ![Nav bar image](docs/features/homePage.PNG)
+| Home Page| Image | 
+| :---: | :---: | 
+| This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz"  and "High Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity. | ![Nav bar image](docs/features/homePage.PNG) |
 
-- ### Start New Quiz
-  - When the user clicks the "Start New Game" they are presented with teo dropdown menus:
-    - **Topic Selection**
-      This dropdown allows the user to choose the topic for the game.
-    - **Difficulty Selection**
-      The user can select the desired difficulty level for the game from this dropdown.
-   Addictionaly, there is a:
-   - **Submit Button**
-     Once the user has made their selections from the two dropdowns menus and clicks the "Submit" button, the game will begin based on the choides made.
+| Start New Quiz| Image | 
+| :---: | :---: | 
+|  When the user clicks the "Start New Game" they are presented with two dropdown menus: | ![Nav bar image](docs/features/startPage.PNG) |
+   **Topic Selection**: this dropdown allows the user to choose the topic for the game. | ![Nav bar image](docs/features/startPage.PNG) |
+   **Difficulty Selection**: the user can select the desired difficulty level for the game from this dropdown. Addictionaly, there is a: | ![Nav bar image](docs/features/startPage.PNG) |
+   **Submit Button**: once the user has made their selections from the two dropdowns menus and clicks the "Submit" button, the game will begin based on the choides made. | ![Nav bar image](docs/features/startPage.PNG) |
 
-        ![Nav bar image](docs/features/startPage.PNG)
+| Game Area| Image | 
+| :---: | :---: | 
+|  The game area includes a **Progress Bar** that automatically fills up based on the current question number the user is on. This features keeps the user informed about their progress through the game, showing how far the user has gone and how much is left until the  end. | ![Nav bar image](docs/features/gameArea.PNG) |
+   Alongside the progress bar, the game area features a **Score Display** that shows the user's current score. This score is calculated based on the number of questions the user has answered correctly so far. | ![Nav bar image](docs/features/gameArea.PNG) |
+   The game does not simply repeat the same question over and over. Insted, the question content is dynamic, varying from one query to the next. This ensures that the user must actively engage with and respond to a diverse set of questions throughout the course of the    game. | ![Nav bar image](docs/features/gameArea.PNG) |
+   The game area also presents the user with a set of **Multiple-Choice Answer**, there are four possible answers from which the user can select the response. When the user chooses an answer, the system provides immediate feedback. If the selected answer is correct,      the corresponding answer box is highlighted in green, conversely if the answer is incorrect, the box is highlighted in red. After this feedback, the game automatically advances to the next question.  | ![Nav bar image](docs/features/gameArea.PNG) |
 
-- ### Game Area
-  - The game area includes a **progress bar** that automatically fills up based on the current question number the user is on. This features keeps the user informed about their progress throughthe game, showing how far the user has gone and how much is left until the end.
-  - Alongside the progress bar, the game area features a **score display** that shows the user's current score. This score is calculated based on the number of questions the user has answered correctly so far.
-  - The game does not simply repeat the same question over and over. Insted, the question content is dynamic, varying from one query to the next. This ensures that the user must actively engage with and respond to a diverse set of questions throughout the course of the game.
-  - The game area also presents the user with a set of **multiple-choice answer**, there are four possible answers from which the user can select the response. When the user chooses an answer, the system provides immediate feedback. If the selected answer is correct, the corresponding answer box is highlighted in green, conversely if the answer is incorrect, the box is highlighted in red. After this feedback, the game automatically advances to the next question.
+| End GAme Page| Image | 
+| :---: | :---: | 
+|  The End page of the game has a few key features worth highlighting: |  ![Nav bar image](docs/features/endGamePage.PNG) |
+   **Score Summary** displays the user's final score, this allows the user to quickly see how they performed overall on the quiz. |  ![Nav bar image](docs/features/endGamePage.PNG)|
+   **Save Name** in addiction to the final score display, the end page also allows users to save their result to a highscore leaderboard. To do this, the users are prompted to enter their name in a text field. Importantly, the **Save Score** button is disabled until the user has entered a name. This ensure that users cannot submit an empty name field.|  ![Nav bar image](docs/features/endGamePage.PNG) |
+   A **Play Again** button that allows users to restart the entire quiz if they wish to try it once more.  |  ![Nav bar image](docs/features/endGamePage.PNG) |
+   **Home** Users can quickly return to the home page by clicking the dedicated "Home" button. |  ![Nav bar image](docs/features/endGamePage.PNG) |
 
-       ![Nav bar image](docs/features/gameArea.PNG)
-
-- ### End Game Page
-  - The End page of the game has a few key features worrth highlighting:
-    - **Score Summary** displays the user's final score, this allows the user to quickly see how they performed overall on the quiz.
-    - **Save Name** in addictionto the final score display, the end page also allows users to save their result to a highscore leaderboard. To do this, the users are prompted to enter their name in a text field. Importantly, the **Save Score** button is disabled until the user has entered a name. This ensure that users cannot submit an empty name field.includes.
-    - A **Play Again** button that allows users to restart the entire quiz if they wish to try it once more.
-    - **Home** Users can quickly return to the home page by clicking the dedicated "Home" button.
-  
-         ![Nav bar image](docs/features/endGamePage.PNG)
 
 ## Features left to Implement
 
@@ -262,8 +258,8 @@ My lovely wife Vivian for her support, advice and help in the crisis moments.
 
 My mentor Antonio for his support and advice.
 
-Amy for the interesting and useful information shared on oct-2023-pla weekly meeting
+Amy for the interesting and useful information shared on oct-2023-pla weekly meeting.
 
-The Code Institute slack community for their quick responses and very helpful feedback!  
+The Code Institute slack community for their quick responses and very helpful feedback. 
 
 
