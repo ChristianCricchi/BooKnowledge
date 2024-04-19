@@ -2,9 +2,9 @@
 
 ChecKnowledge is an online game that allows users to test their knowledge by answering multiple-choice questions on different topics and differnt difficulty levels. The target audience that the game want to reach is people who like quiz, teams preparing for specific events, and anyone seeking entertaining way to pass their time. 
 
-The live link can br found here [ChecKnowledge](https://christiancricchi.github.io/ChecKnowledge/)
+The live link can be found here [ChecKnowledge](https://christiancricchi.github.io/ChecKnowledge/)
 
-![ChecKnowledge is responsive]()
+![ChecKnowledge is responsive](assets/img/AmIresponsive.png)
 
 ## Site owner Goals
 - To provide answer about user that are looking for a quiz game, with particulary focus on general knowledge.
