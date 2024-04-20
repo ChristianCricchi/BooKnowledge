@@ -18,6 +18,7 @@ The live link can be found here [ChecKnowledge](https://christiancricchi.github.
 - As a first time user I want to understand the main purpose of the site.
 - As a first time user I want to be able to intuitively navigate the website.
 - As a first time user I want a fully responsive site.
+- As a first time user I want a full instructions to navigate and know how to play.
 
 ### Returning User
 - As a returning user I want to easily navigate to the ChecKnowledge game.
