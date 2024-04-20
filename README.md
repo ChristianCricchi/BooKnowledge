@@ -168,12 +168,12 @@ Wireframes were produced using Balsamiq.
 
 | File | Test | Pass | Image |
 | :---: | :---: | :---: | :---: | 
-| index.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/indexHtmlMob.png)
-| highscores.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/highscoresHtmlMob.png)
-| game.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/gameHtmlMob.png)
-| error.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/errorHtmlMob.png)
-| end.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/endHtmlMod.png)
-| instructions.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/instructionsDes.png)
+| index.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the mobile version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/indexHtmlMob.png)
+| highscores.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the mobile version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/highscoresHtmlMob.png)
+| game.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the mobile version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/gameHtmlMob.png)
+| error.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the mobile version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/errorHtmlMob.png)
+| end.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the mobile version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/endHtmlMod.png)
+| instructions.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the mobile version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/instructionsDes.png)
 
   - The accessibility was also tested on wave.webaim.org.
 
