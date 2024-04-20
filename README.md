@@ -4,12 +4,13 @@ ChecKnowledge is an online game that allows users to test their knowledge by ans
 
 The live link can be found here [ChecKnowledge](https://christiancricchi.github.io/ChecKnowledge/)
 
-![ChecKnowledge is responsive](assets/img/AmIresponsive.png)
+![ChecKnowledge is responsive](assets/img/AmIResponsive.png)
 
 ## Site owner Goals
 - To provide answer about user that are looking for a quiz game, with particulary focus on general knowledge.
 - To provide the user a game app where teams can test their knowledge before an event or a competition.
 - To provide the user with a game that is easy to navigate, fully responsive, that invokes a sense of relax and non-violence through the use of appropriate colors and layout.
+- To provide the user the instructions of the game.
 
 ## User Stories
 
@@ -76,7 +77,7 @@ Wireframes were produced using Balsamiq.
 
 | Home Page| Image | 
 | :---: | :---: | 
-| This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz"  and "High Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity. | ![Nav bar image](docs/features/homePage.PNG) |
+| This simple and intuitive layout, the logo of the page and two buttons: "Start New Quiz"  and "High Scores" gives the user a clear understanding of the available options, allowing the user to easily navigate to the desired activity. There is as well a button "Instructions" that gives the user the possibility to check the instructions of the game. | ![Nav bar image](docs/features/HomePage.PNG) |
 
 | Start New Quiz| Image | 
 | :---: | :---: | 
@@ -123,6 +124,7 @@ Wireframes were produced using Balsamiq.
 | highscores.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/highscoresHtml.PNG)|
 | end.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/endHtml.PNG)|
 | error.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/errorHtml.PNG)|
+| instructions.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/instructions.png)|
 
 - #### CSS
     - No errors were found when passing through the official W3C CSS Validator
@@ -132,6 +134,8 @@ Wireframes were produced using Balsamiq.
 | end.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/endJs.PNG)|
 | game.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/gameJs.PNG)|
 | highscores.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/highscoresCss.PNG)|
+| instructions.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/instructionsCss.png)|
+
 
 - #### JS
     - No errors were found when passing through the JavaScript validation from JSHint.com
@@ -154,6 +158,7 @@ Wireframes were produced using Balsamiq.
 | game.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/gameHtmlDes.png)
 | error.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/errorHtmlDes.png)
 | end.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/endHtmlDes.png)
+| instructions.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/instructionsDes.png)
 
 - #### Accessibility 
   - The site achieved a Lighthouse accessibility median score of 96% which confirms that the colours and fonts chosen are easy to read and accessible.
@@ -167,6 +172,7 @@ Wireframes were produced using Balsamiq.
 | game.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/gameHtmlMob.png)
 | error.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/errorHtmlMob.png)
 | end.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Mobile/endHtmlMod.png)
+| instructions.html  | The test consists of placing the file in the Lighthouse google tools and verifying the accessibility of the site. Tested the desktop version. | Yes |![Nav bar image](docs/Lighthouse/Desktop/instructionsDes.png)
 
   - The accessibility was also tested on wave.webaim.org.
 
@@ -187,6 +193,7 @@ Wireframes were produced using Balsamiq.
 | Test 2 | As a user, I want the site to be responsive. | All acceptance criteria for responsive quiz have been meet, as verified through comprehensive testing on a variety of devices and browsers | Yes |
 | Test 3 | As a user, I want to be able to choose the topic for the questions. | All acceptance criteria for the topic selection have been meet, as verified through user testing. | Yes |
 | Test 4 | As a user, I want that the quiz should have a large, diverse pool of questions for each available topic. | All acceptance criteria for dynamic have been meet, as verified through comprehensive user testing. | Yes |
+| Test  | As a user, I want be able to check the instructions of the game. | All acceptance criteria for dynamic have been meet, as verified through comprehensive user testing. | Yes |
 
 ### Browser Testing
 - The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
