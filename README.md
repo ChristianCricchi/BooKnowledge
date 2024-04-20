@@ -131,10 +131,10 @@ Wireframes were produced using Balsamiq.
 
 | File | Test | Pass | Image |
 | :---: | :---: | :---: | :---: | 
-| end.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/endJs.PNG)|
-| game.js | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/js/gameJs.PNG)|
+| game.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/gameCss.PNG)|
 | highscores.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/highscoresCss.PNG)|
 | instructions.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/instructionsCss.png)|
+| styles.css | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/css/stylesCss.PNG)|
 
 
 - #### JS
