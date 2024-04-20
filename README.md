@@ -120,7 +120,7 @@ Wireframes were produced using Balsamiq.
 
 | File | Test | Pass | Image |
 | :---: | :---: | :---: | :---: | 
-| index.html | The test consists of placing the file in the Light and verifying that there are no errors. | Yes |![Nav bar image](docs/html/indexHtml.PNG)|
+| index.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/indexHtml.PNG)|
 | game.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/gameHtml.PNG)|
 | highscores.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/highscoresHtml.PNG)|
 | end.html | The test consists of placing the file in the validator and verifying that there are no errors. | Yes |![Nav bar image](docs/html/endHtml.PNG)|
