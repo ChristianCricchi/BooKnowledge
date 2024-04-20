@@ -15,7 +15,7 @@ body {
   /* Styles for the Header */
   h1 {
     text-align: center;
-    color: black;
+    color: white;
     margin-bottom: 30px;
   }
   
@@ -56,6 +56,6 @@ body {
   /* Styles for the Footer */
   footer {
     text-align: center;
-    color: black;
+    color: white;
     padding: 20px 0;
   }
